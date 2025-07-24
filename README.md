@@ -1,12 +1,23 @@
-# notepad README.md
+# 🚢 Deploying Containers to AWS ECS
 
-# \# OR if using VS Code
+This project demonstrates how to containerize an application using Docker and deploy it to Amazon ECS (Elastic Container Service) using Fargate.
 
-# code README.md
+## 📦 Tools & Technologies
+- Docker
+- Amazon ECS
+- AWS Fargate
+- ECR (Elastic Container Registry)
+- AWS CLI / AWS Console
 
-# \# OR with nano in Git Bash
+## 🚀 Project Overview
+The goal is to:
+- Containerize a sample application
+- Push the image to AWS ECR
+- Deploy it using ECS (Fargate launch type)
+- Expose the app publicly via a load balancer
 
-# nano README.md
+## 🧰 Setup Instructions
 
-# 
-
+1. **Build Docker Image**
+   ```bash
+   docker build -t ecs-demo-app .
