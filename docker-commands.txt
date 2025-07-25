@@ -1,0 +1,5 @@
+# Docker Commands for ECS Project
+
+docker build -t ecs-demo-app .
+docker tag ecs-demo-app:latest [account_id].dkr.ecr.[region].amazonaws.com/ecs-demo-app
+docker push [account_id].dkr.ecr.[region].amazonaws.com/ecs-demo-app
